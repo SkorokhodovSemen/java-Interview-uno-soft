@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/answerUnion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lng-big.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2hT6jKENFz7lESxAiRJ5Py7oKwB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,9 +35,53 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/dev/java-explore-with-me",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\java-Interview-uno-soft\src\main\resources" />
+      <recent name="D:\dev\java-Interview-uno-soft" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\java-Interview-uno-soft\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UnionApplication" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UnionApplication" />
+      <module name="java-interview-uno-soft" />
+      <option name="PROGRAM_PARAMETERS" value="lng-big.csv" />
+      <option name="VM_PARAMETERS" value="-Xmx1G" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.UnionApplication" />
+      <module name="java-interview-uno-soft" />
+      <option name="PROGRAM_PARAMETERS" value="lng-big.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,6 +91,57 @@
       <option name="presentableId" value="Default" />
       <updated>1717605855050</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create readme">
+      <option name="closed" value="true" />
+      <created>1717606164233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717606164233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add file">
+      <option name="closed" value="true" />
+      <created>1717609252127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717609252127</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create resources">
+      <option name="closed" value="true" />
+      <created>1717656141578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717656141578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv">
+      <option name="closed" value="true" />
+      <created>1717662411058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717662411058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create readme" />
+    <MESSAGE value="Add file" />
+    <MESSAGE value="Create resources" />
+    <MESSAGE value="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
   </component>
 </project>

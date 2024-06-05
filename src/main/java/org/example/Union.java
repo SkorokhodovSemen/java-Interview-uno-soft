@@ -102,7 +102,7 @@ public class Union {
     private void writeInFile(Map<Integer, List<String>> answerMap) {
         List<ListString> linesCopy = new ArrayList<>();
         try {
-            File file = new File("src/main/resources/answerUnion.txt");
+            File file = new File("D:\\dev\\java-Interview-uno-soft\\src\\main\\resources\\answerUnion.txt");
             FileWriter writer = new FileWriter(file);
             int countGroup = 0;
             int maxSizeGroup = 0;
