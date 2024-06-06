@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/answerUnion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lng-big.zip" beforeDir="false" />
+    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="Fix">
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Add file" />
+        <option name="rewordedMessage" value="Fix&#10;&#10;&#10;squash! Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv&#10;&#10;&#10;Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv&#10;&#10;&#10;Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv&#10;&#10;&#10;Create resources&#10;&#10;&#10;Add file" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="adc5fa0bc6ac21c749d15aa0e409a1281d1ac350" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/dev/java-explore-with-me",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/java-explore-with-me&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\java-Interview-uno-soft\src\main\resources" />
@@ -123,7 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717662411058</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv">
+      <option name="closed" value="true" />
+      <created>1717662760478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717662760478</updated>
+    </task>
+    <task id="LOCAL-00006" summary="squash! Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv">
+      <option name="closed" value="true" />
+      <created>1717662868970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717662868970</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1717662905153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717662905153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +175,8 @@
     <MESSAGE value="Add file" />
     <MESSAGE value="Create resources" />
     <MESSAGE value="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
+    <MESSAGE value="squash! Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
 </project>
