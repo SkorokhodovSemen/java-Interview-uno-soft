@@ -1,8 +1,6 @@
 package org.example;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -20,13 +18,26 @@ public class Union {
         List<String[]> splitLines = uniqueLines.stream()
                 .map(line -> line.split(";"))
                 .collect(Collectors.toList());
-        UnionFind unionFind = getUnionFind(splitLines);
-
+        Map<String, Integer> repeat = new HashMap<>();
+        for (String[] strings : splitLines) {
+            for (int i = 0; i < strings.length; i++) {
+                if (!strings[i].isBlank() && !strings[i].equals("\"\"")) {
+                    if (repeat.containsKey(strings[i])) {
+                        Integer integer = repeat.get(strings[i]);
+                        integer++;
+                        repeat.put(strings[i], integer);
+                    } else {
+                        repeat.put(strings[i], 1);
+                    }
+                }
+            }
+        }
+        UnionFind unionFind = getUnionFind(splitLines, repeat);
         Map<Integer, List<String>> groups = collectGroups(splitLines, unionFind);
         writeInFile(groups);
     }
 
-    private static UnionFind getUnionFind(List<String[]> splitLines) {
+    private static UnionFind getUnionFind(List<String[]> splitLines, Map<String, Integer> repeat) {
         Map<String, Map<Integer, Integer>> value = new HashMap<>();
         UnionFind unionFind = new UnionFind(splitLines.size());
         for (int i = 0; i < splitLines.size(); i++) {
@@ -42,9 +53,11 @@ public class Union {
                             value.put(columns[j], fromValue);
                         }
                     } else {
-                        Map<Integer, Integer> forValue = new HashMap<>();
-                        forValue.put(j, i);
-                        value.put(columns[j], forValue);
+                        if (repeat.get(columns[j]) > 1) {
+                            Map<Integer, Integer> forValue = new HashMap<>();
+                            forValue.put(j, i);
+                            value.put(columns[j], forValue);
+                        }
                     }
                 }
             }
@@ -84,8 +97,8 @@ public class Union {
         }
 
         public void union(int x, int y) {
-            int rootX = find(x);
             int rootY = find(y);
+            int rootX = find(x);
             if (rootX != rootY) {
                 if (rank[rootX] > rank[rootY]) {
                     parent[rootY] = rootX;

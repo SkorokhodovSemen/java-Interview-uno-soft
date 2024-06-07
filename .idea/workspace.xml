@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="Fix">
+    <list default="true" id="202d1a28-6a4e-432c-a202-981fc7f5b184" name="Changes" comment="Fix readme for -Xmx1G">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Union.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Union.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/java-explore-with-me&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java-Interview-uno-soft",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\java-Interview-uno-soft\src\main\resources" />
       <recent name="D:\dev\java-Interview-uno-soft" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\dev\java-Interview-uno-soft\src\main\java\resources" />
       <recent name="D:\dev\java-Interview-uno-soft\src\main\resources" />
+      <recent name="D:\dev\java-Interview-uno-soft\src\main\java\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -67,13 +68,28 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="UnionApplication" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UnionApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
+      <module name="java-interview-uno-soft" />
+      <option name="PROGRAM_PARAMETERS" value="lng-big.csv" />
+      <option name="VM_PARAMETERS" value="-Xmx1G" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnionApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.UnionApplication" />
       <module name="java-interview-uno-soft" />
-      <option name="PROGRAM_PARAMETERS" value="lng-big.csv" />
+      <option name="PROGRAM_PARAMETERS" value="lng.txt" />
       <option name="VM_PARAMETERS" value="-Xmx1G" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UnionApplication" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717663662406</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix readme for -Xmx1G">
+      <option name="closed" value="true" />
+      <created>1717687000077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717687000077</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +244,7 @@
     <MESSAGE value="squash! Create start java -jar java-interview-uno-soft-1.0-SNAPSHOT.jar lng-big.csv" />
     <MESSAGE value="Readme" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Fix readme for -Xmx1G" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix readme for -Xmx1G" />
   </component>
 </project>
